@@ -7,12 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		064A98BF65B6FEE1EC752870 /* Pods_DouYuBroad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF0A90C060DA56E46DDB04D /* Pods_DouYuBroad.framework */; };
+		121316DA1F3C573A002C9DDB /* CollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121316D31F3C5528002C9DDB /* CollectionHeaderView.swift */; };
+		121316DB1F3C573A002C9DDB /* CollectionNormalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121316D61F3C5528002C9DDB /* CollectionNormalCell.swift */; };
+		121316DC1F3C573A002C9DDB /* CollectionPrettyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121316D81F3C5528002C9DDB /* CollectionPrettyCell.swift */; };
+		121316DD1F3C5746002C9DDB /* CollectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 121316D51F3C5528002C9DDB /* CollectionHeaderView.xib */; };
+		121316DE1F3C5746002C9DDB /* CollectionNormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 121316D41F3C5528002C9DDB /* CollectionNormalCell.xib */; };
+		121316DF1F3C5746002C9DDB /* CollectionPrettyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 121316D71F3C5528002C9DDB /* CollectionPrettyCell.xib */; };
+		121316E11F3C58E8002C9DDB /* AnchorGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121316E01F3C58E8002C9DDB /* AnchorGroup.swift */; };
+		121316E31F3C5E7A002C9DDB /* AnchorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121316E21F3C5E7A002C9DDB /* AnchorModel.swift */; };
+		1258D3ED1F3C2EC900EA344C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1258D3EB1F3C2EC900EA344C /* HomeViewController.swift */; };
+		1258D3EE1F3C2EC900EA344C /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1258D3EC1F3C2EC900EA344C /* RecommendViewController.swift */; };
+		1258D3F01F3C2EEB00EA344C /* RecommendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1258D3EF1F3C2EEB00EA344C /* RecommendViewModel.swift */; };
+		1258D3F21F3C337E00EA344C /* NSDate-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1258D3F11F3C337E00EA344C /* NSDate-Extension.swift */; };
+		12664C651F3ABAB700668EA2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12664C641F3ABAB700668EA2 /* MainViewController.swift */; };
+		12664C691F3ABCE200668EA2 /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12664C681F3ABCE200668EA2 /* LiveViewController.swift */; };
+		12664C6B1F3ABCEC00668EA2 /* FollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12664C6A1F3ABCEC00668EA2 /* FollowViewController.swift */; };
+		12664C6D1F3ABCF800668EA2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12664C6C1F3ABCF800668EA2 /* ProfileViewController.swift */; };
+		12664C771F3AF06200668EA2 /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12664C761F3AF06200668EA2 /* UIBarButtonItem-Extension.swift */; };
+		12664C791F3AF64800668EA2 /* JMPageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12664C781F3AF64800668EA2 /* JMPageTitleView.swift */; };
+		12664C7B1F3AF7A800668EA2 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12664C7A1F3AF7A800668EA2 /* Constant.swift */; };
+		12664C7D1F3B030700668EA2 /* JMPageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12664C7C1F3B030700668EA2 /* JMPageContentView.swift */; };
+		12664C7F1F3B056F00668EA2 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12664C7E1F3B056F00668EA2 /* UIColor-Extension.swift */; };
 		128536341F3AA5BB00C7355C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128536331F3AA5BB00C7355C /* AppDelegate.swift */; };
-		128536391F3AA5BB00C7355C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 128536371F3AA5BB00C7355C /* Main.storyboard */; };
 		1285363B1F3AA5BB00C7355C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1285363A1F3AA5BB00C7355C /* Assets.xcassets */; };
 		1285363E1F3AA5BB00C7355C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1285363C1F3AA5BB00C7355C /* LaunchScreen.storyboard */; };
 		128536491F3AA5BB00C7355C /* DouYuBroadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128536481F3AA5BB00C7355C /* DouYuBroadTests.swift */; };
 		128536541F3AA5BB00C7355C /* DouYuBroadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128536531F3AA5BB00C7355C /* DouYuBroadUITests.swift */; };
+		12E28D581F3C1DD600D58FBA /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E28D571F3C1DD600D58FBA /* NetworkTools.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +55,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		121316D31F3C5528002C9DDB /* CollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionHeaderView.swift; sourceTree = "<group>"; };
+		121316D41F3C5528002C9DDB /* CollectionNormalCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionNormalCell.xib; sourceTree = "<group>"; };
+		121316D51F3C5528002C9DDB /* CollectionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionHeaderView.xib; sourceTree = "<group>"; };
+		121316D61F3C5528002C9DDB /* CollectionNormalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionNormalCell.swift; sourceTree = "<group>"; };
+		121316D71F3C5528002C9DDB /* CollectionPrettyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionPrettyCell.xib; sourceTree = "<group>"; };
+		121316D81F3C5528002C9DDB /* CollectionPrettyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionPrettyCell.swift; sourceTree = "<group>"; };
+		121316E01F3C58E8002C9DDB /* AnchorGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorGroup.swift; sourceTree = "<group>"; };
+		121316E21F3C5E7A002C9DDB /* AnchorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorModel.swift; sourceTree = "<group>"; };
+		121418BBE9D6599F1A48D93D /* Pods-DouYuBroad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYuBroad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DouYuBroad/Pods-DouYuBroad.debug.xcconfig"; sourceTree = "<group>"; };
+		1258D3EB1F3C2EC900EA344C /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1258D3EC1F3C2EC900EA344C /* RecommendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
+		1258D3EF1F3C2EEB00EA344C /* RecommendViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendViewModel.swift; sourceTree = "<group>"; };
+		1258D3F11F3C337E00EA344C /* NSDate-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate-Extension.swift"; sourceTree = "<group>"; };
+		12664C641F3ABAB700668EA2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		12664C681F3ABCE200668EA2 /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
+		12664C6A1F3ABCEC00668EA2 /* FollowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowViewController.swift; sourceTree = "<group>"; };
+		12664C6C1F3ABCF800668EA2 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		12664C761F3AF06200668EA2 /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
+		12664C781F3AF64800668EA2 /* JMPageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JMPageTitleView.swift; sourceTree = "<group>"; };
+		12664C7A1F3AF7A800668EA2 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		12664C7C1F3B030700668EA2 /* JMPageContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JMPageContentView.swift; sourceTree = "<group>"; };
+		12664C7E1F3B056F00668EA2 /* UIColor-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
 		128536301F3AA5BB00C7355C /* DouYuBroad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuBroad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		128536331F3AA5BB00C7355C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		128536381F3AA5BB00C7355C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1285363A1F3AA5BB00C7355C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1285363D1F3AA5BB00C7355C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1285363F1F3AA5BB00C7355C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +88,9 @@
 		1285364F1F3AA5BB00C7355C /* DouYuBroadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouYuBroadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		128536531F3AA5BB00C7355C /* DouYuBroadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouYuBroadUITests.swift; sourceTree = "<group>"; };
 		128536551F3AA5BB00C7355C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12E28D571F3C1DD600D58FBA /* NetworkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
+		62876C6C5BF4E7B2F1E655EC /* Pods-DouYuBroad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYuBroad.release.xcconfig"; path = "Pods/Target Support Files/Pods-DouYuBroad/Pods-DouYuBroad.release.xcconfig"; sourceTree = "<group>"; };
+		AAF0A90C060DA56E46DDB04D /* Pods_DouYuBroad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DouYuBroad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				064A98BF65B6FEE1EC752870 /* Pods_DouYuBroad.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +119,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		121316D91F3C561B002C9DDB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				121316D31F3C5528002C9DDB /* CollectionHeaderView.swift */,
+				121316D51F3C5528002C9DDB /* CollectionHeaderView.xib */,
+				121316D61F3C5528002C9DDB /* CollectionNormalCell.swift */,
+				121316D41F3C5528002C9DDB /* CollectionNormalCell.xib */,
+				121316D81F3C5528002C9DDB /* CollectionPrettyCell.swift */,
+				121316D71F3C5528002C9DDB /* CollectionPrettyCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1258D3EA1F3C2EC900EA344C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1258D3EB1F3C2EC900EA344C /* HomeViewController.swift */,
+				1258D3EC1F3C2EC900EA344C /* RecommendViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		12664C751F3AF03900668EA2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				12664C761F3AF06200668EA2 /* UIBarButtonItem-Extension.swift */,
+				12664C7A1F3AF7A800668EA2 /* Constant.swift */,
+				12664C7E1F3B056F00668EA2 /* UIColor-Extension.swift */,
+				1258D3F11F3C337E00EA344C /* NSDate-Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		12664C951F3C2D4F00668EA2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1258D3EF1F3C2EEB00EA344C /* RecommendViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		12664C961F3C2D4F00668EA2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				121316E01F3C58E8002C9DDB /* AnchorGroup.swift */,
+				121316E21F3C5E7A002C9DDB /* AnchorModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		128536271F3AA5BB00C7355C = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +176,8 @@
 				128536471F3AA5BB00C7355C /* DouYuBroadTests */,
 				128536521F3AA5BB00C7355C /* DouYuBroadUITests */,
 				128536311F3AA5BB00C7355C /* Products */,
+				C9B98A8764A97E55C127CE13 /* Pods */,
+				FCB8E468605AE5266FA544AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +229,7 @@
 		12BDC66D1F3AAD3600C5438E /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				12664C681F3ABCE200668EA2 /* LiveViewController.swift */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -137,6 +237,7 @@
 		12BDC66E1F3AAD3600C5438E /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				12664C751F3AF03900668EA2 /* Extension */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -144,6 +245,7 @@
 		12BDC66F1F3AAD3600C5438E /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				12664C6A1F3ABCEC00668EA2 /* FollowViewController.swift */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -151,6 +253,10 @@
 		12BDC6701F3AAD3600C5438E /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				121316D91F3C561B002C9DDB /* Views */,
+				1258D3EA1F3C2EC900EA344C /* Controller */,
+				12664C961F3C2D4F00668EA2 /* Model */,
+				12664C951F3C2D4F00668EA2 /* ViewModel */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -158,7 +264,10 @@
 		12BDC6711F3AAD3600C5438E /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				128536371F3AA5BB00C7355C /* Main.storyboard */,
+				12664C641F3ABAB700668EA2 /* MainViewController.swift */,
+				12664C781F3AF64800668EA2 /* JMPageTitleView.swift */,
+				12664C7C1F3B030700668EA2 /* JMPageContentView.swift */,
+				12E28D571F3C1DD600D58FBA /* NetworkTools.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -166,8 +275,26 @@
 		12BDC6721F3AAD3600C5438E /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				12664C6C1F3ABCF800668EA2 /* ProfileViewController.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		C9B98A8764A97E55C127CE13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				121418BBE9D6599F1A48D93D /* Pods-DouYuBroad.debug.xcconfig */,
+				62876C6C5BF4E7B2F1E655EC /* Pods-DouYuBroad.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FCB8E468605AE5266FA544AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAF0A90C060DA56E46DDB04D /* Pods_DouYuBroad.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,9 +304,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 128536581F3AA5BB00C7355C /* Build configuration list for PBXNativeTarget "DouYuBroad" */;
 			buildPhases = (
+				9E9C6E4B3FEF0306E7B9F450 /* [CP] Check Pods Manifest.lock */,
 				1285362C1F3AA5BB00C7355C /* Sources */,
 				1285362D1F3AA5BB00C7355C /* Frameworks */,
 				1285362E1F3AA5BB00C7355C /* Resources */,
+				538DA11850898BC9397C2E75 /* [CP] Embed Pods Frameworks */,
+				CF896F15611DD1F1BDD4F4AB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,6 +368,7 @@
 				TargetAttributes = {
 					1285362F1F3AA5BB00C7355C = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = V7NA7CNBAU;
 						ProvisioningStyle = Manual;
 					};
 					128536431F3AA5BB00C7355C = {
@@ -277,9 +408,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				121316DD1F3C5746002C9DDB /* CollectionHeaderView.xib in Resources */,
+				121316DE1F3C5746002C9DDB /* CollectionNormalCell.xib in Resources */,
+				121316DF1F3C5746002C9DDB /* CollectionPrettyCell.xib in Resources */,
 				1285363E1F3AA5BB00C7355C /* LaunchScreen.storyboard in Resources */,
 				1285363B1F3AA5BB00C7355C /* Assets.xcassets in Resources */,
-				128536391F3AA5BB00C7355C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,12 +432,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		538DA11850898BC9397C2E75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DouYuBroad/Pods-DouYuBroad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E9C6E4B3FEF0306E7B9F450 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF896F15611DD1F1BDD4F4AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DouYuBroad/Pods-DouYuBroad-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1285362C1F3AA5BB00C7355C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				121316DA1F3C573A002C9DDB /* CollectionHeaderView.swift in Sources */,
+				121316DB1F3C573A002C9DDB /* CollectionNormalCell.swift in Sources */,
+				121316DC1F3C573A002C9DDB /* CollectionPrettyCell.swift in Sources */,
+				12664C6D1F3ABCF800668EA2 /* ProfileViewController.swift in Sources */,
+				12664C791F3AF64800668EA2 /* JMPageTitleView.swift in Sources */,
+				12664C7B1F3AF7A800668EA2 /* Constant.swift in Sources */,
 				128536341F3AA5BB00C7355C /* AppDelegate.swift in Sources */,
+				1258D3EE1F3C2EC900EA344C /* RecommendViewController.swift in Sources */,
+				12664C651F3ABAB700668EA2 /* MainViewController.swift in Sources */,
+				12664C6B1F3ABCEC00668EA2 /* FollowViewController.swift in Sources */,
+				12E28D581F3C1DD600D58FBA /* NetworkTools.swift in Sources */,
+				12664C7D1F3B030700668EA2 /* JMPageContentView.swift in Sources */,
+				12664C691F3ABCE200668EA2 /* LiveViewController.swift in Sources */,
+				1258D3F21F3C337E00EA344C /* NSDate-Extension.swift in Sources */,
+				12664C771F3AF06200668EA2 /* UIBarButtonItem-Extension.swift in Sources */,
+				12664C7F1F3B056F00668EA2 /* UIColor-Extension.swift in Sources */,
+				121316E31F3C5E7A002C9DDB /* AnchorModel.swift in Sources */,
+				1258D3ED1F3C2EC900EA344C /* HomeViewController.swift in Sources */,
+				1258D3F01F3C2EEB00EA344C /* RecommendViewModel.swift in Sources */,
+				121316E11F3C58E8002C9DDB /* AnchorGroup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,14 +540,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		128536371F3AA5BB00C7355C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				128536381F3AA5BB00C7355C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1285363C1F3AA5BB00C7355C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -456,32 +648,36 @@
 		};
 		128536591F3AA5BB00C7355C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 121418BBE9D6599F1A48D93D /* Pods-DouYuBroad.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = V7NA7CNBAU;
 				INFOPLIST_FILE = DouYuBroad/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Solarbao.DouYuBroad;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Solarbao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "699100c7-6354-4a5a-8587-9f06f1ce7ec7";
+				PROVISIONING_PROFILE_SPECIFIER = SolarBaoDEV_JIAMAO;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		1285365A1F3AA5BB00C7355C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62876C6C5BF4E7B2F1E655EC /* Pods-DouYuBroad.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = V7NA7CNBAU;
 				INFOPLIST_FILE = DouYuBroad/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Solarbao.DouYuBroad;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Solarbao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "699100c7-6354-4a5a-8587-9f06f1ce7ec7";
+				PROVISIONING_PROFILE_SPECIFIER = SolarBaoDEV_JIAMAO;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
