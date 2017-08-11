@@ -16,6 +16,16 @@
 		121316DF1F3C5746002C9DDB /* CollectionPrettyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 121316D71F3C5528002C9DDB /* CollectionPrettyCell.xib */; };
 		121316E11F3C58E8002C9DDB /* AnchorGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121316E01F3C58E8002C9DDB /* AnchorGroup.swift */; };
 		121316E31F3C5E7A002C9DDB /* AnchorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121316E21F3C5E7A002C9DDB /* AnchorModel.swift */; };
+		121316E51F3D493E002C9DDB /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121316E41F3D493E002C9DDB /* BaseCollectionViewCell.swift */; };
+		121316E71F3D52C9002C9DDB /* RecommendCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121316E61F3D52C9002C9DDB /* RecommendCycleView.swift */; };
+		121316EB1F3D5D6B002C9DDB /* RecommendCycleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 121316EA1F3D5D6B002C9DDB /* RecommendCycleView.xib */; };
+		1213768F1F3D723000F89ED7 /* CycleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1213768E1F3D723000F89ED7 /* CycleModel.swift */; };
+		121376921F3D755100F89ED7 /* CollectionCycleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121376901F3D755100F89ED7 /* CollectionCycleCell.swift */; };
+		121376931F3D755100F89ED7 /* CollectionCycleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 121376911F3D755100F89ED7 /* CollectionCycleCell.xib */; };
+		124AC8161F3D7EF00030BCA2 /* RecommendGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124AC8151F3D7EF00030BCA2 /* RecommendGameView.swift */; };
+		124AC8181F3D7EFA0030BCA2 /* RecommendGameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 124AC8171F3D7EFA0030BCA2 /* RecommendGameView.xib */; };
+		124AC81B1F3D848E0030BCA2 /* CollectionGameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124AC8191F3D848E0030BCA2 /* CollectionGameCell.swift */; };
+		124AC81C1F3D848E0030BCA2 /* CollectionGameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 124AC81A1F3D848E0030BCA2 /* CollectionGameCell.xib */; };
 		1258D3ED1F3C2EC900EA344C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1258D3EB1F3C2EC900EA344C /* HomeViewController.swift */; };
 		1258D3EE1F3C2EC900EA344C /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1258D3EC1F3C2EC900EA344C /* RecommendViewController.swift */; };
 		1258D3F01F3C2EEB00EA344C /* RecommendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1258D3EF1F3C2EEB00EA344C /* RecommendViewModel.swift */; };
@@ -63,7 +73,17 @@
 		121316D81F3C5528002C9DDB /* CollectionPrettyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionPrettyCell.swift; sourceTree = "<group>"; };
 		121316E01F3C58E8002C9DDB /* AnchorGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorGroup.swift; sourceTree = "<group>"; };
 		121316E21F3C5E7A002C9DDB /* AnchorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorModel.swift; sourceTree = "<group>"; };
+		121316E41F3D493E002C9DDB /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		121316E61F3D52C9002C9DDB /* RecommendCycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendCycleView.swift; sourceTree = "<group>"; };
+		121316EA1F3D5D6B002C9DDB /* RecommendCycleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecommendCycleView.xib; sourceTree = "<group>"; };
+		1213768E1F3D723000F89ED7 /* CycleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleModel.swift; sourceTree = "<group>"; };
+		121376901F3D755100F89ED7 /* CollectionCycleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCycleCell.swift; sourceTree = "<group>"; };
+		121376911F3D755100F89ED7 /* CollectionCycleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionCycleCell.xib; sourceTree = "<group>"; };
 		121418BBE9D6599F1A48D93D /* Pods-DouYuBroad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYuBroad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DouYuBroad/Pods-DouYuBroad.debug.xcconfig"; sourceTree = "<group>"; };
+		124AC8151F3D7EF00030BCA2 /* RecommendGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendGameView.swift; sourceTree = "<group>"; };
+		124AC8171F3D7EFA0030BCA2 /* RecommendGameView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecommendGameView.xib; sourceTree = "<group>"; };
+		124AC8191F3D848E0030BCA2 /* CollectionGameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionGameCell.swift; sourceTree = "<group>"; };
+		124AC81A1F3D848E0030BCA2 /* CollectionGameCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionGameCell.xib; sourceTree = "<group>"; };
 		1258D3EB1F3C2EC900EA344C /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		1258D3EC1F3C2EC900EA344C /* RecommendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
 		1258D3EF1F3C2EEB00EA344C /* RecommendViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendViewModel.swift; sourceTree = "<group>"; };
@@ -88,6 +108,7 @@
 		1285364F1F3AA5BB00C7355C /* DouYuBroadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouYuBroadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		128536531F3AA5BB00C7355C /* DouYuBroadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouYuBroadUITests.swift; sourceTree = "<group>"; };
 		128536551F3AA5BB00C7355C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		129ED8BC1F3D8E45005FD698 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		12E28D571F3C1DD600D58FBA /* NetworkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
 		62876C6C5BF4E7B2F1E655EC /* Pods-DouYuBroad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYuBroad.release.xcconfig"; path = "Pods/Target Support Files/Pods-DouYuBroad/Pods-DouYuBroad.release.xcconfig"; sourceTree = "<group>"; };
 		AAF0A90C060DA56E46DDB04D /* Pods_DouYuBroad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DouYuBroad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +149,14 @@
 				121316D41F3C5528002C9DDB /* CollectionNormalCell.xib */,
 				121316D81F3C5528002C9DDB /* CollectionPrettyCell.swift */,
 				121316D71F3C5528002C9DDB /* CollectionPrettyCell.xib */,
+				121316E61F3D52C9002C9DDB /* RecommendCycleView.swift */,
+				121316EA1F3D5D6B002C9DDB /* RecommendCycleView.xib */,
+				121376901F3D755100F89ED7 /* CollectionCycleCell.swift */,
+				121376911F3D755100F89ED7 /* CollectionCycleCell.xib */,
+				124AC8151F3D7EF00030BCA2 /* RecommendGameView.swift */,
+				124AC8171F3D7EFA0030BCA2 /* RecommendGameView.xib */,
+				124AC8191F3D848E0030BCA2 /* CollectionGameCell.swift */,
+				124AC81A1F3D848E0030BCA2 /* CollectionGameCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -165,6 +194,7 @@
 			children = (
 				121316E01F3C58E8002C9DDB /* AnchorGroup.swift */,
 				121316E21F3C5E7A002C9DDB /* AnchorModel.swift */,
+				1213768E1F3D723000F89ED7 /* CycleModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -204,6 +234,7 @@
 				1285363A1F3AA5BB00C7355C /* Assets.xcassets */,
 				1285363C1F3AA5BB00C7355C /* LaunchScreen.storyboard */,
 				1285363F1F3AA5BB00C7355C /* Info.plist */,
+				129ED8BC1F3D8E45005FD698 /* Bridging-Header.h */,
 			);
 			path = DouYuBroad;
 			sourceTree = "<group>";
@@ -268,6 +299,7 @@
 				12664C781F3AF64800668EA2 /* JMPageTitleView.swift */,
 				12664C7C1F3B030700668EA2 /* JMPageContentView.swift */,
 				12E28D571F3C1DD600D58FBA /* NetworkTools.swift */,
+				121316E41F3D493E002C9DDB /* BaseCollectionViewCell.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -410,9 +442,13 @@
 			files = (
 				121316DD1F3C5746002C9DDB /* CollectionHeaderView.xib in Resources */,
 				121316DE1F3C5746002C9DDB /* CollectionNormalCell.xib in Resources */,
+				121316EB1F3D5D6B002C9DDB /* RecommendCycleView.xib in Resources */,
+				121376931F3D755100F89ED7 /* CollectionCycleCell.xib in Resources */,
 				121316DF1F3C5746002C9DDB /* CollectionPrettyCell.xib in Resources */,
+				124AC8181F3D7EFA0030BCA2 /* RecommendGameView.xib in Resources */,
 				1285363E1F3AA5BB00C7355C /* LaunchScreen.storyboard in Resources */,
 				1285363B1F3AA5BB00C7355C /* Assets.xcassets in Resources */,
+				124AC81C1F3D848E0030BCA2 /* CollectionGameCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,12 +524,16 @@
 				121316DA1F3C573A002C9DDB /* CollectionHeaderView.swift in Sources */,
 				121316DB1F3C573A002C9DDB /* CollectionNormalCell.swift in Sources */,
 				121316DC1F3C573A002C9DDB /* CollectionPrettyCell.swift in Sources */,
+				124AC81B1F3D848E0030BCA2 /* CollectionGameCell.swift in Sources */,
 				12664C6D1F3ABCF800668EA2 /* ProfileViewController.swift in Sources */,
 				12664C791F3AF64800668EA2 /* JMPageTitleView.swift in Sources */,
 				12664C7B1F3AF7A800668EA2 /* Constant.swift in Sources */,
 				128536341F3AA5BB00C7355C /* AppDelegate.swift in Sources */,
 				1258D3EE1F3C2EC900EA344C /* RecommendViewController.swift in Sources */,
+				121376921F3D755100F89ED7 /* CollectionCycleCell.swift in Sources */,
+				121316E51F3D493E002C9DDB /* BaseCollectionViewCell.swift in Sources */,
 				12664C651F3ABAB700668EA2 /* MainViewController.swift in Sources */,
+				124AC8161F3D7EF00030BCA2 /* RecommendGameView.swift in Sources */,
 				12664C6B1F3ABCEC00668EA2 /* FollowViewController.swift in Sources */,
 				12E28D581F3C1DD600D58FBA /* NetworkTools.swift in Sources */,
 				12664C7D1F3B030700668EA2 /* JMPageContentView.swift in Sources */,
@@ -504,6 +544,8 @@
 				121316E31F3C5E7A002C9DDB /* AnchorModel.swift in Sources */,
 				1258D3ED1F3C2EC900EA344C /* HomeViewController.swift in Sources */,
 				1258D3F01F3C2EEB00EA344C /* RecommendViewModel.swift in Sources */,
+				121316E71F3D52C9002C9DDB /* RecommendCycleView.swift in Sources */,
+				1213768F1F3D723000F89ED7 /* CycleModel.swift in Sources */,
 				121316E11F3C58E8002C9DDB /* AnchorGroup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -651,15 +693,17 @@
 			baseConfigurationReference = 121418BBE9D6599F1A48D93D /* Pods-DouYuBroad.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = V7NA7CNBAU;
 				INFOPLIST_FILE = DouYuBroad/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Solarbao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "699100c7-6354-4a5a-8587-9f06f1ce7ec7";
 				PROVISIONING_PROFILE_SPECIFIER = SolarBaoDEV_JIAMAO;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/jiamao/Documents/DouYuSwift/DouYuBroad/DouYuBroad/Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -669,15 +713,17 @@
 			baseConfigurationReference = 62876C6C5BF4E7B2F1E655EC /* Pods-DouYuBroad.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = V7NA7CNBAU;
 				INFOPLIST_FILE = DouYuBroad/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Solarbao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "699100c7-6354-4a5a-8587-9f06f1ce7ec7";
 				PROVISIONING_PROFILE_SPECIFIER = SolarBaoDEV_JIAMAO;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/jiamao/Documents/DouYuSwift/DouYuBroad/DouYuBroad/Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

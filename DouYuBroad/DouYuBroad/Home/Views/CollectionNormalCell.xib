@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13122.17" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.14"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -68,6 +69,12 @@
                 <constraint firstItem="cv5-vz-cJr" firstAttribute="trailing" secondItem="Tqf-ZE-Dlh" secondAttribute="trailing" constant="-5" id="vIt-yx-aLX"/>
             </constraints>
             <size key="customSize" width="264" height="201"/>
+            <connections>
+                <outlet property="iconImageView" destination="Tqf-ZE-Dlh" id="hhp-w0-Ue7"/>
+                <outlet property="nicknameLabel" destination="SRD-HV-XFL" id="wke-7R-mbE"/>
+                <outlet property="onlineBtn" destination="cv5-vz-cJr" id="pWB-5c-ZuT"/>
+                <outlet property="roomNameLabel" destination="5So-8V-f38" id="w50-JE-mbi"/>
+            </connections>
             <point key="canvasLocation" x="-24" y="13.5"/>
         </collectionViewCell>
     </objects>

@@ -10,13 +10,28 @@ import UIKit
 
 class RecommendViewModel {
 
-    fileprivate lazy var anchorGroups: [AnchorGroup] = [AnchorGroup]()
+    lazy var anchorGroups: [AnchorGroup] = [AnchorGroup]()
+    fileprivate lazy var bigDataGroup: AnchorGroup = AnchorGroup()
+    fileprivate lazy var prettyGroup: AnchorGroup = AnchorGroup()
+    lazy var cycleModels: [CycleModel] = [CycleModel]()
+    
 }
-
 
 extension RecommendViewModel{
     
-    func requestData() {
+    func requestCycleData(finishCallback:@escaping ()->()){
+        NetworkTools.requestData(type: .GET, URLString: "http://www.douyutv.com/api/v1/slide/6", parameters: ["version" : "2.300"]) { (response) in
+            
+            guard let resultDict = response as? [String : NSObject] else {return}
+            guard let dataArray = resultDict["data"] as? [[String : NSObject]] else {return}
+            for dict in dataArray{
+                self.cycleModels.append(CycleModel(dict: dict))
+            }
+            finishCallback()
+        }
+    }
+    
+    func requestData(finishCallback:@escaping ()->()) {
         
         let dispatchGroup = DispatchGroup()
         dispatchGroup.enter()
@@ -24,16 +39,15 @@ extension RecommendViewModel{
             
             guard let resultDict = response as? [String:NSObject] else {return}
             guard let dataArray = resultDict["data"] as? [[String : NSObject]] else {return}
-            let group = AnchorGroup()
-            group.tag_name = "热门"
-            group.icon_name = "home_header_hot"
+            
+            self.bigDataGroup.tag_name = "热门"
+            self.bigDataGroup.icon_name = "home_header_hot"
             for dict in dataArray{
                 let anchor = AnchorModel(dict: dict)
-                group.anchors.append(anchor)
+                self.bigDataGroup.anchors.append(anchor)
             }
             
             dispatchGroup.leave()
-            print("0")
             
         }
         
@@ -42,15 +56,13 @@ extension RecommendViewModel{
             
             guard let resultDict = response as? [String:NSObject] else {return}
             guard let dataArray = resultDict["data"] as? [[String : NSObject]] else {return}
-            let group = AnchorGroup()
-            group.tag_name = "颜值"
-            group.icon_name = "home_header_phone"
+            self.prettyGroup.tag_name = "颜值"
+            self.prettyGroup.icon_name = "home_header_phone"
             for dict in dataArray{
                 let anchor = AnchorModel(dict: dict)
-                group.anchors.append(anchor)
+                self.prettyGroup.anchors.append(anchor)
             }
             dispatchGroup.leave()
-            print("1")
             
         }
         
@@ -64,13 +76,13 @@ extension RecommendViewModel{
                 self.anchorGroups.append(group)
             }
             dispatchGroup.leave()
-            print("2")
             
         }
         
         dispatchGroup.notify(queue: DispatchQueue.main) {
-            print("3")
-            
+            self.anchorGroups.insert(self.prettyGroup, at: 0)
+            self.anchorGroups.insert(self.bigDataGroup, at: 0)
+            finishCallback()
         }
     }
 }

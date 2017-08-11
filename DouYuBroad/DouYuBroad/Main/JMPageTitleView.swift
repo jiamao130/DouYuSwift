@@ -109,8 +109,14 @@ extension JMPageTitleView{
 extension JMPageTitleView{
     
     @objc fileprivate func titleLabelClick(tapGes:UITapGestureRecognizer){
+        
+        
         //获取当前lable的下标
         guard let currentLabel = tapGes.view as? UILabel else {return}
+        
+        if  currentLabel.tag == currentIndex{
+            return
+        }
         //获取之前的label
         let oldLabel = titleLabels[currentIndex]
         currentIndex = currentLabel.tag

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13122.17" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.14"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -27,7 +28,7 @@
                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         </state>
                     </button>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="北京市" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lYD-rs-5mH">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="北京市" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lYD-rs-5mH" userLabel="nicknameLabel">
                         <rect key="frame" x="0.0" y="182" width="274" height="16"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="16" id="9gX-QG-CL1"/>
@@ -45,39 +46,46 @@
                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                         </userDefinedRuntimeAttributes>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="666在线" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wlj-70-CrN">
-                        <rect key="frame" x="214" y="5" width="60" height="20"/>
+                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0rP-ZK-zs1">
+                        <rect key="frame" x="211" y="8" width="60" height="20"/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="20" id="bz4-XT-cxu"/>
-                            <constraint firstAttribute="width" constant="60" id="wcc-Fm-JVL"/>
+                            <constraint firstAttribute="width" constant="60" id="CSY-Sq-gZ3"/>
+                            <constraint firstAttribute="height" constant="20" id="Ccc-nB-aJ0"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                        <nil key="highlightedColor"/>
+                        <state key="normal" title="666在线">
+                            <color key="titleColor" red="0.91764705879999997" green="0.91764705879999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                 <integer key="value" value="3"/>
                             </userDefinedRuntimeAttribute>
                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                         </userDefinedRuntimeAttributes>
-                    </label>
+                    </button>
                 </subviews>
             </view>
             <constraints>
-                <constraint firstItem="Wlj-70-CrN" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="GrT-VP-hDU"/>
                 <constraint firstItem="N7Q-SU-MkE" firstAttribute="top" secondItem="lYD-rs-5mH" secondAttribute="bottom" constant="5" id="JPk-jV-CW9"/>
                 <constraint firstItem="lYD-rs-5mH" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="MPZ-ku-HM5"/>
-                <constraint firstAttribute="trailing" secondItem="Wlj-70-CrN" secondAttribute="trailing" constant="5" id="QY6-43-ixG"/>
+                <constraint firstAttribute="trailing" secondItem="0rP-ZK-zs1" secondAttribute="trailing" constant="8" id="Nnd-sm-DhM"/>
                 <constraint firstAttribute="bottom" secondItem="N7Q-SU-MkE" secondAttribute="bottom" constant="10" id="Sq3-Xp-Yov"/>
                 <constraint firstItem="lYD-rs-5mH" firstAttribute="top" secondItem="N5f-fI-zjP" secondAttribute="bottom" constant="5" id="UYN-cI-9GN"/>
                 <constraint firstItem="N7Q-SU-MkE" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Uv4-h4-KHT"/>
+                <constraint firstItem="0rP-ZK-zs1" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="cgQ-G9-aE0"/>
                 <constraint firstAttribute="trailing" secondItem="lYD-rs-5mH" secondAttribute="trailing" constant="5" id="nwv-jS-XJW"/>
                 <constraint firstAttribute="trailing" secondItem="N5f-fI-zjP" secondAttribute="trailing" id="utn-7J-lOF"/>
                 <constraint firstItem="N5f-fI-zjP" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="wnU-Cn-5Pw"/>
                 <constraint firstItem="N5f-fI-zjP" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="xDV-2A-Jhx"/>
             </constraints>
             <size key="customSize" width="279" height="227"/>
+            <connections>
+                <outlet property="cityBtn" destination="N7Q-SU-MkE" id="LDb-Jj-zR0"/>
+                <outlet property="iconImageView" destination="N5f-fI-zjP" id="QBt-tP-e0G"/>
+                <outlet property="nicknameLabel" destination="lYD-rs-5mH" id="4IC-UR-oBA"/>
+                <outlet property="onlineBtn" destination="0rP-ZK-zs1" id="5Cr-j4-NkC"/>
+            </connections>
             <point key="canvasLocation" x="64.5" y="35.5"/>
         </collectionViewCell>
     </objects>
