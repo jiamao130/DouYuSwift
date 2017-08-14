@@ -12,12 +12,12 @@ class CycleModel: NSObject {
     
     var title: String = ""
     var pic_url : String  = ""
-    var room: [String : NSObject]?{
+    var room: [String : Any]?{
         didSet{
             guard let room = room else {
                 return
             }
-            anchor = AnchorModel(dict: room)
+            anchor = AnchorModel(dict: room as! [String : NSObject])
         }
     }
     var anchor: AnchorModel?

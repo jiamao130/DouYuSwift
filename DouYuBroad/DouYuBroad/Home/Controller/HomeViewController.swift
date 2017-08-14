@@ -19,17 +19,16 @@ class HomeViewController: UIViewController {
         return titleView
     }()
     
-    fileprivate lazy var pageContentView: JMPageContentView = {
+    fileprivate lazy var pageContentView: PageContentView = {
         let contentH = kScreenH-kStatusBarH-kNavigationBarH-kTitleViewH - kTarBarH
         let contentFrame = CGRect(x: 0, y: kStatusBarH+kNavigationBarH+kTitleViewH, width: kScreenW, height: contentH)
         var childVcs = [UIViewController]()
         childVcs.append(RecommendViewController())
-        for _ in 0..<3{
-            let vc = UIViewController()
-            vc.view.backgroundColor = UIColor(r: CGFloat(arc4random_uniform(255)), g: CGFloat(arc4random_uniform(255)), b: CGFloat(arc4random_uniform(255)))
-            childVcs.append(vc)
-        }
-        let contentView = JMPageContentView(frame: contentFrame, childVcs: childVcs, parentController: self)
+        childVcs.append(GameViewController())
+        childVcs.append(AmuseViewController())
+        childVcs.append(FunnyViewController())
+        
+        let contentView = PageContentView(frame: contentFrame, childVcs: childVcs, parentViewController: self)
         contentView.delegate = self
         return contentView
     }()
@@ -69,14 +68,16 @@ extension HomeViewController{
 }
 
 extension HomeViewController: PageTitleViewDelegate{
-    func PageTitleView(titleView: JMPageTitleView, selectIndex index: Int) {
-        pageContentView.setCurrentIndex(currentIndex: index)
+    func pageTitleView(_ titleView: JMPageTitleView, selectedIndex index: Int) {
+        pageContentView.setCurrentIndex(index)
+        
     }
+    
 }
 
-extension HomeViewController:JMPageContentViewDelegate{
-    func pageContentView(contentView: JMPageContentView, progress: CGFloat, sourceIndex: Int, targetIndex: Int) {
-        pageTitleView.setTitleWithProgres(progress: progress, sourceIndex: sourceIndex, targetIndex: targetIndex)
+extension HomeViewController:PageContentViewDelegate{
+    func pageContentView(_ contentView: PageContentView, progress: CGFloat, sourceIndex: Int, targetIndex: Int) {
+        pageTitleView.setTitleWithProgress(progress, sourceIndex: sourceIndex, targetIndex: targetIndex)
     }
 }
 

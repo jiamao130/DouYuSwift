@@ -24,7 +24,7 @@ class MainViewController: UITabBarController {
         childController.title = title
         childController.tabBarItem.image = UIImage(named: imageName)
         tabBar.tintColor = UIColor.orange
-        let nav = UINavigationController()
+        let nav = CustomNavigationController()
         nav.addChildViewController(childController)
         addChildViewController(nav)
         

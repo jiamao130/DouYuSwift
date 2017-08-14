@@ -6,13 +6,12 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.14"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CollectionGameCell" customModule="DouYuBroad" customModuleProvider="target">
+        <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CollectionGameCell" customModule="DouYuBroad" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="80" height="90"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -20,18 +19,16 @@
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="英雄联盟" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W1x-ne-ZSD">
-                        <rect key="frame" x="17.5" y="65" width="45" height="15"/>
-                        <constraints>
-                            <constraint firstAttribute="height" constant="15" id="fux-UH-4ds"/>
-                        </constraints>
+                        <rect key="frame" x="17.5" y="65" width="45" height="13.5"/>
                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OVD-5m-iUo">
-                        <rect key="frame" x="21.5" y="15" width="44" height="43.5"/>
+                        <rect key="frame" x="17.5" y="14.5" width="45" height="45"/>
                         <constraints>
-                            <constraint firstAttribute="width" secondItem="OVD-5m-iUo" secondAttribute="height" multiplier="32:39" constant="8.0769230769230802" id="NKI-39-Nwk"/>
+                            <constraint firstAttribute="height" constant="45" id="14t-fn-Omm"/>
+                            <constraint firstAttribute="width" constant="45" id="vJn-kH-T9y"/>
                         </constraints>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -40,14 +37,23 @@
                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                         </userDefinedRuntimeAttributes>
                     </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wrV-Pz-H36">
+                        <rect key="frame" x="0.0" y="90" width="80" height="1"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="1uA-vS-7JU"/>
+                        </constraints>
+                    </view>
                 </subviews>
             </view>
             <constraints>
-                <constraint firstItem="W1x-ne-ZSD" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="9Ui-sk-dNY"/>
-                <constraint firstAttribute="bottom" secondItem="W1x-ne-ZSD" secondAttribute="bottom" constant="10" id="S9k-Ya-beE"/>
-                <constraint firstItem="W1x-ne-ZSD" firstAttribute="top" secondItem="OVD-5m-iUo" secondAttribute="bottom" constant="6.5" id="nyV-lq-32a"/>
-                <constraint firstItem="OVD-5m-iUo" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" constant="3.5" id="nz2-pC-p6i"/>
-                <constraint firstItem="OVD-5m-iUo" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="15" id="yxU-YC-pjN"/>
+                <constraint firstAttribute="bottom" secondItem="wrV-Pz-H36" secondAttribute="bottom" constant="-1" id="33q-1v-4sn"/>
+                <constraint firstItem="W1x-ne-ZSD" firstAttribute="centerX" secondItem="OVD-5m-iUo" secondAttribute="centerX" id="HhL-hH-CDD"/>
+                <constraint firstItem="OVD-5m-iUo" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" constant="-8" id="Paq-RF-jZq"/>
+                <constraint firstItem="wrV-Pz-H36" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="aoE-Ul-3Q3"/>
+                <constraint firstItem="W1x-ne-ZSD" firstAttribute="top" secondItem="OVD-5m-iUo" secondAttribute="bottom" constant="5" id="ceU-Zs-dDv"/>
+                <constraint firstAttribute="trailing" secondItem="wrV-Pz-H36" secondAttribute="trailing" id="kAo-Ya-Ufk"/>
+                <constraint firstItem="OVD-5m-iUo" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="pf6-OE-ZFf"/>
             </constraints>
             <size key="customSize" width="248" height="257"/>
             <connections>

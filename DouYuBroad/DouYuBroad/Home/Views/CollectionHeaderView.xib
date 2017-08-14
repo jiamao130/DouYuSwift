@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.14"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -25,7 +26,6 @@
                     <rect key="frame" x="10" y="20" width="18" height="18"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="18" id="B2J-4d-uxi"/>
-                        <constraint firstAttribute="width" constant="18" id="owp-aP-wzm"/>
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="热点" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MAB-gb-ru5">
@@ -58,6 +58,7 @@
             </constraints>
             <connections>
                 <outlet property="iconImageView" destination="LVs-o0-Nvh" id="c7O-yx-Duj"/>
+                <outlet property="moreView" destination="Hnu-7e-VFW" id="Bot-kU-CS1"/>
                 <outlet property="titleLabel" destination="MAB-gb-ru5" id="prM-fi-T86"/>
             </connections>
             <point key="canvasLocation" x="-91" y="-62"/>

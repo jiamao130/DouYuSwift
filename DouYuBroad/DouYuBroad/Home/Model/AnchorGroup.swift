@@ -8,37 +8,20 @@
 
 import UIKit
 
-class AnchorGroup: NSObject {
+class AnchorGroup: BaseGameModel {
     
-    var room_list : [[String : NSObject]]?{
+    var room_list : [[String : Any]]?{
         didSet{
             guard let room_list = room_list  else {
                 return
             }
             for dict in room_list{
-                anchors.append(AnchorModel(dict:dict))
+                anchors.append(AnchorModel(dict:dict as! [String : NSObject]))
             }
         }
     }
-    var tag_name: String = ""
     var icon_name : String = "home_header_hot"
-    var icon_url : String = ""
     
     lazy var anchors : [AnchorModel] = [AnchorModel]()
-    
-    override init() {
-        
-    }
-    
-    init(dict: [String : NSObject]) {
-        super.init()
-        setValuesForKeys(dict)
-    }
-    
-    override func setValue(_ value: Any?, forKey key: String) {
-        super.setValue(value, forKey: key)
-    }
-    override func setValue(_ value: Any?, forUndefinedKey key: String) {
-        
-    }
+
 }
